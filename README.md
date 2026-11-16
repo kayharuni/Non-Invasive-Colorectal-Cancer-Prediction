@@ -1,0 +1,39 @@
+# Non-invasvie Approach to Characterizing the Progression of Colorectal Cancer Using Health Check-up Data and Machine Learning
+This project aims to aims to explore a scalable, non-invasive CRC screening approach that can detect early stage of the
+disease by leveraging routine health check-up data from a cohort and machine learning (ML).
+
+
+## Data Source
+The large dataset used in this retrospective cohort study was obtained through a collaboration with
+Tokyo Women’s Medical University. It comprises 8,831 Japanese participants (5,138 male and
+3,693 female), each with one or more health check-up visits. Due to repeated visits every 6 months
+or annually by some individuals, the data includes a total of 47,528 rows, with visit counts per
+individual ranging from 1 to 54. These records span from as early as 1993 to as recent as 2019,
+though the continuity and frequency of visits vary across patients. Each visit captures real-time
+indicators of the patient’s health status, including:
+
+1. Non-invasive health check-up features such as basic clinical measurements, blood test
+results, urine test results, and other laboratory parameters. These act as explanatory
+variables.
+
+3. Endoscopic outcomes, if available, will be recorded alongside the health check-up visit.
+These outcomes represent the physician’s diagnosis at the time and serve as the assigned
+response variable corresponding to the non-invasive data collected during the same visit 
+
+With input from medical experts, the number of relevant non-invasive features was reduced from
+388 to 51, ensuring that only clinically meaningful variables were retained for analysis.
+
+## Directory
+crc_final.ipynb : The jupyter notebook of the workflow from data loading and cleaning, model development, tuning, evaluation, and disease progression modelling.
+figures : Result figures obtained from analysis
+Kayla_Title and Abstract.pdf : Abstract of the project which includes introduction, method, and results
+
+* Due to confidentiality the full dataset is not uploaded here *
+
+## Support
+kaylaharuni@gmail.com
+
+
+
+## Project status
+Development has been handed over.
