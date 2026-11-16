@@ -2,7 +2,7 @@
 This project aims to aims to explore a scalable, non-invasive CRC screening approach that can detect early stage of the
 disease by leveraging routine health check-up data from a cohort and machine learning (ML).
 
-# Installations
+## Installations
 Python 3.11.14
 
 ## Data Source
